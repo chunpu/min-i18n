@@ -1,0 +1,16 @@
+*bak*
+/node_modules
+dist
+.svn
+.git
+coverage
+build/Release
+lib-cov
+pids
+*.out
+*.bak
+*.old
+*.log
+._*
+.DS_Store
+pages/static

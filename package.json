@@ -1,0 +1,25 @@
+{
+  "name": "min-i18n",
+  "version": "1.0.0",
+  "description": "simple javascript i18n lib",
+  "main": "i18n.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunpu/min-i18n.git"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "chunpu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunpu/min-i18n/issues"
+  },
+  "homepage": "https://github.com/chunpu/min-i18n#readme",
+  "dependencies": {
+    "min-util": "^3.0.0"
+  }
+}
