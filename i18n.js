@@ -6,12 +6,14 @@
 var _ = require('min-util')
 
 function I18n() {
-    this.resources = {} // {'zh_CN': {key: value, key2, value2   }}
+    var me = this
+    me.resources = {} // {'zh_CN': {key: value, key2, value2   }}
+    me.resource = {}
     var locales = []
     if ('object' == typeof navigator) {
         locales = navigator.languages || [navigator.language]
     }
-    this.setLocales(locales)
+    me.setLocales(locales)
 }
 
 var proto = I18n.prototype

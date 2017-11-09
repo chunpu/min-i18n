@@ -1,6 +1,8 @@
 var i18n = require('./i18n')
 var assert = require('assert')
 
+assert.deepEqual(i18n.t('没有初始化'), '没有初始化')
+
 i18n.setLocale('en')
 
 assert.deepEqual(i18n.locale, 'en')
